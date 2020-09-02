@@ -1,2 +1,4 @@
 # Tennis-Network
-A network created using the 2019 ATP tournament year, with the top 300 players as nodes and edges as matches played between each player.
+A network created using the 2019 ATP tournament year, with the top 300 players as nodes and edges as matches played between two players.
+This project we chose is a tennis network of the ATP(association of tennis players) world tour tournaments of a given season. The aim is to capture the interaction between players which would be captured by node degrees and edges. I formulated a graph where each node represents a tennis player, and an edge between two nodes indicates the match between the respective players, with each edge pointing from the loser to the winner.
+Data from ATP tour is publicly available at www.tennisabstract.com. The men’s data consist of ATP matches from 1985-2020. For this project, I limit myself to the 2019 data. There are about 396 players in the 2019 dataset. The network would illustrate all the tournaments played on the ATP tour for the calendar year of 2019. 
